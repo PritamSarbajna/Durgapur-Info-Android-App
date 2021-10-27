@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Durgapur</string>
+    <string name="resturants">Resturants</string>
+    <string name="hotels">Hotels</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="attractions">Attractions</string>
+    <string name="Coffee">Café</string>
+</resources>

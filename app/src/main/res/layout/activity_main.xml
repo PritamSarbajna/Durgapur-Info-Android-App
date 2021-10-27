@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/tan_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_resturants">
+   <TextView
+       android:id="@+id/resturants"
+       style="@style/CategoryStyle"
+       android:background="?android:attr/selectableItemBackground"
+       android:text="@string/resturants" />
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hotels">
+   <TextView
+       android:id="@+id/hotels"
+       style="@style/CategoryStyle"
+       android:background="?android:attr/selectableItemBackground"
+       android:text="@string/hotels" />
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hospitals">
+   <TextView
+       android:id="@+id/hospitals"
+       style="@style/CategoryStyle"
+       android:background="?android:attr/selectableItemBackground"
+       android:text="@string/hospitals" />
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_attractions">
+   <TextView
+       android:id="@+id/attractions"
+       style="@style/CategoryStyle"
+       android:background="?android:attr/selectableItemBackground"
+       android:text="@string/attractions" />
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_coffee">
+   <TextView
+       android:id="@+id/coffee"
+       style="@style/CategoryStyle"
+       android:background="?android:attr/selectableItemBackground"
+       android:text="@string/Coffee" />
+</FrameLayout>
+    
+    
+</LinearLayout>

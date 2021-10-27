@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.durgapur">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/ic_android_durgapur"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_android_durgapur_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Durgapur">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResturantsActivity"
+                  android:label="@string/resturants"
+                  android:parentActivityName=".MainActivity"
+            />
+
+        <activity android:name=".HotelsActivity"
+                  android:label="@string/hotels"
+                  android:parentActivityName=".MainActivity"
+            />
+
+        <activity android:name=".HospitalsActivity"
+                  android:label="@string/hospitals"
+                  android:parentActivityName=".MainActivity"
+            />
+
+        <activity android:name=".AttractionsActivity"
+                  android:label="@string/attractions"
+                  android:parentActivityName=".MainActivity"
+            />
+
+        <activity android:name=".CafeActivity"
+                  android:label="@string/Coffee"
+                  android:parentActivityName=".MainActivity"
+            />
+
+    </application>
+
+</manifest>
