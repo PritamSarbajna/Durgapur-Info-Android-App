@@ -1,9 +1,7 @@
 # A-City-Info-Android-App
 This app provides some information about my city - Durgapur
 
-/**
- * Android Studio information when I created this application.
- */
+* Android Studio information when I created this application.
 
 
 Android Studio Arctic Fox | 2020.3.1 Patch 3
